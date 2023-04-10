@@ -1,6 +1,6 @@
 # Vaadin Framework Example
 
-Sample of Chat application on top of Vaadin.
+Sample Chat application on top of Vaadin.
 
 ## Technology stack
 

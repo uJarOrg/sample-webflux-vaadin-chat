@@ -14,8 +14,8 @@ spring :
   application :
     name : sample-webflux-vaadin-chat
 
-vaadin:
-  whitelisted-packages: com.vaadin,org.vaadin,org.ujar.webfluxvaadinchat
+vaadin :
+  whitelisted-packages : com.vaadin,org.vaadin,org.ujar.webfluxvaadinchat
 
 logging :
   level :
