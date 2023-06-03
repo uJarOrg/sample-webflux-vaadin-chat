@@ -3,7 +3,7 @@ services :
 
   prometheus :
     container_name : webflux-vaadin-chat-prometheus
-    image : prom/prometheus:v2.42.0
+    image : prom/prometheus:v2.44.0
     volumes :
       - ./src/main/docker/prometheus/:/etc/prometheus/
     command :
@@ -13,7 +13,7 @@ services :
     network_mode : 'host' # to test locally running service
   grafana :
     container_name : webflux-vaadin-chat-grafana
-    image : grafana/grafana:9.3.6
+    image : grafana/grafana:9.5.2
     volumes :
       - ./src/main/docker/grafana/provisioning/:/etc/grafana/provisioning/
     environment :
