@@ -421,9 +421,9 @@ steps :
     commands :
       - echo Prepare new version ${RELEASE_VERSION}
       - export NEXT_SNAPSHOT=${SNAPSHOT_VERSION}-SNAPSHOT
-      - export GIT_AUTHOR_NAME=$${SVC_BUILD_GIT_USERNAME}
+      - export GIT_AUTHOR_NAME="$${SVC_BUILD_GIT_USERNAME}"
       - export GIT_AUTHOR_EMAIL=$${SVC_BUILD_GIT_EMAIL}
-      - export GIT_COMMITTER_NAME=$${SVC_BUILD_GIT_USERNAME}
+      - export GIT_COMMITTER_NAME="$${SVC_BUILD_GIT_USERNAME}"
       - export GIT_COMMITTER_EMAIL=$${SVC_BUILD_GIT_EMAIL}
       - git remote set-url --push origin ${DRONE_GIT_SSH_URL}
       - git checkout -b v${RELEASE_VERSION}
