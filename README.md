@@ -4,13 +4,13 @@ Sample Chat application on top of Vaadin.
 
 ## Technology stack
 
-Java 17, Spring Boot 3, Webflux, Vaadin 24
+java 21, Spring Boot 3, Webflux, Vaadin 24
 
 ## Prerequisites
 
 The following items should be installed in your system:
 
-* Java 17 or newer.
+* java 21 or newer.
 * git command line tool (https://help.github.com/articles/set-up-git)
 * Your preferred IDE (IDEA preferably)
 
