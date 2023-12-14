@@ -14,14 +14,13 @@ The following items should be installed in your system:
 * git command line tool (https://help.github.com/articles/set-up-git)
 * Your preferred IDE (IDEA preferably)
 
-
 ### Running locally
 
 This application is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built
 using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
 
 ```
-git clone https://github.com/uJarOrg/sample-webflux-vaadin-chat.git
+git clone https://github.com/KnowHowSpringBoot/sample-webflux-vaadin-chat.git
 cd sample-webflux-vaadin-chat
 ./mvnw package
 java -jar target/*.jar
@@ -33,13 +32,12 @@ You might also want to use Maven's `spring-boot:run` goal - applications run in 
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=local -P production
 ```
 
-
 ### Working with Application in your IDE
 
 1) On the command line
 
 ```
-git clone https://github.com/uJarOrg/sample-webflux-vaadin-chat.git
+git clone https://github.com/KnowHowSpringBoot/sample-webflux-vaadin-chat.git
 ```
 
 2) Inside IDE
@@ -48,7 +46,6 @@ In the main menu, choose `File -> Open` and select the Application [pom.xml](pom
 Activate "local" profile in the Run settings or set it via environment
 variables. [instruction](https://stackoverflow.com/questions/38520638/how-to-set-spring-profile-from-system-variable)
 Wait to indexing completion and push the green "play" button.
-
 
 ## Code conventions
 

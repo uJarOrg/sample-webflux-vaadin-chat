@@ -15,7 +15,7 @@ spring :
     name : sample-webflux-vaadin-chat
 
 vaadin :
-  whitelisted-packages : com.vaadin,org.vaadin,org.ujar.webfluxvaadinchat
+  whitelisted-packages : com.vaadin,org.vaadin,dev.knowhowto.webfluxvaadinchat
 
 logging :
   pattern :
@@ -64,7 +64,7 @@ management :
     metrics :
       export :
         step : 20s
-        enabled: true
+        enabled : true
   zipkin :
     tracing :
       endpoint : ${TEMPO_URL:http://localhost:9411/api/v2/spans}
@@ -90,7 +90,7 @@ management :
     prometheus :
       enabled : true
 
-ujar :
+iqkv :
   build :
     description : '@project.description@'
     relative-path : ${SERVER_SERVLET_CONTEXT_PATH:/}

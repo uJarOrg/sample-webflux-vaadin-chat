@@ -1,4 +1,4 @@
-package org.ujar.webfluxvaadinchat;
+package dev.knowhowto.webfluxvaadinchat;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.component.page.Push;
