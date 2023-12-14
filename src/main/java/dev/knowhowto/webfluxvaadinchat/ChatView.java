@@ -1,4 +1,4 @@
-package org.ujar.webfluxvaadinchat;
+package dev.knowhowto.webfluxvaadinchat;
 
 import jakarta.annotation.security.PermitAll;
 import java.util.ArrayList;
