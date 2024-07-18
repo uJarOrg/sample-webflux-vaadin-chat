@@ -20,8 +20,8 @@ This application is a [Spring Boot](https://spring.io/guides/gs/spring-boot) app
 using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
 
 ```
-git clone https://github.com/KnowHowSpringBoot/sample-webflux-vaadin-chat.git
-cd sample-webflux-vaadin-chat
+git clone https://github.com/KnowHowSpringBoot/sample-reactive-vaadin-chat.git
+cd sample-reactive-vaadin-chat
 ./mvnw package
 java -jar target/*.jar
 ```
@@ -37,7 +37,7 @@ You might also want to use Maven's `spring-boot:run` goal - applications run in 
 1) On the command line
 
 ```
-git clone https://github.com/KnowHowSpringBoot/sample-webflux-vaadin-chat.git
+git clone https://github.com/KnowHowSpringBoot/sample-reactive-vaadin-chat.git
 ```
 
 2) Inside IDE

@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.knowhowto</groupId>
-    <artifactId>sample-webflux-vaadin-chat</artifactId>
+    <artifactId>sample-reactive-vaadin-chat</artifactId>
     <version>24.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>sample-webflux-vaadin-chat</name>
+    <name>sample-reactive-vaadin-chat</name>
     <description>Sample Chat application on top of Vaadin.</description>
     <licenses>
         <license>
