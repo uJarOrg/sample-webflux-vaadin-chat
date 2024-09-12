@@ -13,7 +13,7 @@
     "@rollup/pluginutils": "5.0.2",
     "async": "3.2.2",
     "glob": "7.2.3",
-    "husky": "9.1.5",
+    "husky": "9.1.6",
     "mkdirp": "1.0.4",
     "prettier": "3.3.3",
     "prettier-plugin-java": "2.6.4",
@@ -29,7 +29,7 @@
     "workbox-precaching": "6.5.4"
   },
   "engines": {
-    "node": ">=16.17.0"
+    "node": ">=18.20.4"
   },
   "cacheDirectories": [
     "node_modules"
