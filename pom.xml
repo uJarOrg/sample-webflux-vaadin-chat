@@ -8,7 +8,7 @@
     <version>24.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>sample-reactive-vaadin-chat</name>
+    <name>reactive-vaadin-chat</name>
     <description>Sample Chat application on top of Vaadin.</description>
     <licenses>
         <license>
