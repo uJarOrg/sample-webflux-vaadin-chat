@@ -31,9 +31,6 @@
   "engines": {
     "node": ">=18.20.4"
   },
-  "cacheDirectories": [
-    "node_modules"
-  ],
   "dependencies": {
     "@polymer/polymer": "3.5.1",
     "@vaadin/accordion": "24.0.0",
