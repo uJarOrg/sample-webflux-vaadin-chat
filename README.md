@@ -10,9 +10,9 @@ java 21, Spring Boot 3, Webflux, Vaadin 24
 
 The following items should be installed in your system:
 
-* java 21 or newer.
-* git command line tool (https://help.github.com/articles/set-up-git)
-* Your preferred IDE (IDEA preferably)
+- java 21 or newer.
+- git command line tool (https://help.github.com/articles/set-up-git)
+- Your preferred IDE (IDEA preferably)
 
 ### Running locally
 
@@ -34,13 +34,13 @@ You might also want to use Maven's `spring-boot:run` goal - applications run in 
 
 ### Working with Application in your IDE
 
-1) On the command line
+1. On the command line
 
 ```
 git clone https://github.com/KnowHowSpringBoot/sample-reactive-vaadin-chat.git
 ```
 
-2) Inside IDE
+2. Inside IDE
 
 In the main menu, choose `File -> Open` and select the Application [pom.xml](pom.xml). Click on the `Open` button.
 Activate "local" profile in the Run settings or set it via environment
@@ -76,4 +76,4 @@ YY.MM.MICRO
 
 1. **YY** - short year - 6, 16, 106
 1. **MM** - short month - 1, 2 ... 11, 12
-1. **MICRO** -  "patch" segment
+1. **MICRO** - "patch" segment
