@@ -6,13 +6,22 @@
   "author": "Dima Denisenko",
   "license": "Apache-2.0",
   "scripts": {
-    "prepare": "husky"
+    "lint": "npm run lint:stylelint",
+    "lint:stylelint": "stylelint \"**/*.css\" --cache",
+    "prepare": "husky",
+    "prettier:check": "prettier . --check",
+    "prettier:write": "prettier . --write"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@semantic-release/git": "^10.0.1",
     "@rollup/plugin-replace": "5.0.2",
     "@rollup/pluginutils": "5.0.2",
     "async": "3.2.2",
-    "glob": "7.2.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "glob": "^11.0.0",
+    "lint-staged": "^15.2.5",
     "husky": "9.1.6",
     "mkdirp": "1.0.4",
     "prettier": "3.3.3",
@@ -20,6 +29,9 @@
     "prettier-plugin-packagejson": "2.5.2",
     "rollup-plugin-brotli": "3.1.0",
     "strip-css-comments": "5.0.0",
+    "semantic-release": "^24.1.2",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard-scss": "^13.0.0",
     "transform-ast": "2.4.4",
     "typescript": "4.9.3",
     "vite": "4.5.5",
@@ -27,6 +39,11 @@
     "workbox-build": "6.5.4",
     "workbox-core": "6.5.4",
     "workbox-precaching": "6.5.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   },
   "engines": {
     "node": ">=18.20.4"
