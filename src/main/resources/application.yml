@@ -15,7 +15,7 @@ spring :
     name : sample-reactive-vaadin-chat
 
 vaadin :
-  whitelisted-packages : com.vaadin,org.vaadin,dev.knowhowto.webfluxvaadinchat
+  whitelisted-packages : com.vaadin,org.vaadin,com.iqkv.incubator.sample.reactivevaadinchat
 
 logging :
   pattern :
