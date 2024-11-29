@@ -38,7 +38,7 @@
     "vite": "4.5.5",
     "vite-plugin-checker": "0.5.5",
     "workbox-build": "6.5.4",
-    "workbox-core": "6.5.4",
+    "workbox-core": "7.3.0",
     "workbox-precaching": "6.5.4"
   },
   "config": {
@@ -197,7 +197,7 @@
       "vite": "4.4.11",
       "vite-plugin-checker": "0.5.5",
       "workbox-build": "6.5.4",
-      "workbox-core": "6.5.4",
+      "workbox-core": "7.3.0",
       "workbox-precaching": "6.5.4"
     },
     "hash": "dd8a983c49e0a5d788a6efdfc26f1a7b348e4d7d1c5987f4d99026eb2cb79c7a"
