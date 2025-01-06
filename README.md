@@ -1,4 +1,4 @@
-# Vaadin Framework Example
+# 🚀 Vaadin Framework Example
 
 Sample Chat application on top of Vaadin.
 
