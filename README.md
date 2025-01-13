@@ -63,7 +63,7 @@ quality is measured by:
 This project has standard JUnit tests. To run them execute this command:
 
 ```text
-./mvnw test
+./mvnw verify -Puse-qulice
 ```
 
 ## Versioning
